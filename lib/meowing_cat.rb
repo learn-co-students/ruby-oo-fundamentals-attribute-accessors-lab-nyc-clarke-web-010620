@@ -1,13 +1,11 @@
 ## code your solution here.
-attr_accessor = :name
 
 class Cat
-    def name (chosen_name)
-        @name = chosen_name
-    end
+    attr_accessor :name
 
-    def .meow (cat)
+    def meow
         puts "meow!"
+    end
 end 
 
 
